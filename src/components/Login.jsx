@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [modoRegistro, setModoRegistro] = React.useState(true);
-  const [email, setEmail] = React.useState("ithamar@gmail.com");
-  const [pass, setPass] = React.useState("87456123");
+  const [email, setEmail] = React.useState("");
+  const [pass, setPass] = React.useState("");
   const [error, setError] = React.useState(null);
   const navigate = useNavigate();
 
